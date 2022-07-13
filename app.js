@@ -13,6 +13,9 @@ let isGameOver = false;
 p1Button.addEventListener('click', function () {
     if (!isGameOver) {
         p1Score++;
+        if (p1Score == winningScore - 1 && p2Score == winningScore - 1) {
+            winningScore++;
+        }
         if (p1Score === winningScore) {
             isGameOver = true;
         }
@@ -23,6 +26,9 @@ p1Button.addEventListener('click', function () {
 p2Button.addEventListener('click', function () {
     if (!isGameOver) {
         p2Score++;
+        if (p1Score == winningScore - 1 && p2Score == winningScore - 1) {
+            winningScore++;
+        }
         if (p2Score === winningScore) {
             isGameOver = true;
         }
