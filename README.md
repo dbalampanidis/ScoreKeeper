@@ -1,6 +1,6 @@
 # ScoreKeeper
 
-Simple score keeper app created with HTML and Javascript.
+Score keeper app created with HTML and JavaScript.
 Begin by selecting a score to play up to and add points to each player by pressing the corresponding player button.
 
 Added a "win by 2" logic, so that players have to win with a 2 points difference.
